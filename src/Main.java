@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("vvedite nomer mesiacha");
+        /*System.out.println("vvedite nomer mesiacha");
         int x;
         Scanner sc = new Scanner(System.in); // создание сканера
         x = sc.nextInt(); // считывание из консоли целого числа
@@ -28,8 +28,20 @@ public class Main {
                 case 11:
                     System.out.println("fall");
                     break;
+            }*/
+        // КОнец задачи.
+        System.out.println("vvedite chislo");
+        int x;
+        Scanner sc = new Scanner(System.in);
+
+        for (int i=0;i<5;i++) { // цикл до 5 раз 
+            x = sc.nextInt();
+            if (x % 2 == 0) {
+                System.out.println("chislo chetnoe");
+            } else {
+                System.out.println("chislo ne chetnoe");
             }
 
-
+        }
     }
 }
