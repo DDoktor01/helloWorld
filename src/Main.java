@@ -30,18 +30,29 @@ public class Main {
                     break;
             }*/
         // КОнец задачи.
-        System.out.println("vvedite chislo");
+       /* System.out.println("vvedite chislo");
         int x;
         Scanner sc = new Scanner(System.in);
 
-        for (int i=0;i<5;i++) { // цикл до 5 раз 
+        for (int i=0;i<5;i++) { // цикл до 5 раз
             x = sc.nextInt();
             if (x % 2 == 0) {
                 System.out.println("chislo chetnoe");
             } else {
                 System.out.println("chislo ne chetnoe");
+            }*/ //конец 3 задачи
+        System.out.println("vvedite temperaturu");
+        int t;
+        Scanner sc = new Scanner(System.in); // создание сканера
+        for (; ; ) {
+            t = sc.nextInt();
+            if (t > -5) {
+                System.out.println("TEPLO");
+            } else if (t <= -5 && t > -20) {
+                System.out.println("NORMALNO");
             }
-
+            else if ( t<= -20) {
+                    System.out.println("DUBAAAK!"); }
+                }
+            }
         }
-    }
-}
