@@ -41,7 +41,7 @@ public class Main {
             } else {
                 System.out.println("chislo ne chetnoe");
             }*/ //конец 3 задачи
-        System.out.println("vvedite temperaturu");
+        /*System.out.println("vvedite temperaturu");
         int t;
         Scanner sc = new Scanner(System.in); // создание сканера
         for (; ; ) {
@@ -52,7 +52,38 @@ public class Main {
                 System.out.println("NORMALNO");
             }
             else if ( t<= -20) {
-                    System.out.println("DUBAAAK!"); }
-                }
-            }
+                    System.out.println("DUBAAAK!"); }  // конец задачи
+        System.out.println("vvedite chislo");
+        int i;
+        Scanner sc = new Scanner(System.in); // создание сканера
+         i = sc.nextInt();
+         for (i = 0 ; i < 100 ; i++) {
+             if (i % 2 == 1) {
+                 System.out.println(i); */
+       /* System.out.println("vvedite chislo");
+        int i;
+        Scanner sc = new Scanner(System.in); // создание сканера
+        ///i = sc.nextInt(); //
+        for (i = sc.nextInt(); i > 0; i--) {
+            {
+                System.out.println(i);
+            } */
+        System.out.println("vvedite chislo");
+        int sum = 0;
+        Scanner sc = new Scanner(System.in); // создание сканера
+        int i = sc.nextInt(); // считывание из консоли целого числа
+
+        for (int j = 0; j <= i; j++) {
+            sum += j;
         }
+        System.out.println("Summa = " + sum);
+
+
+    }
+}
+
+
+
+
+
+
